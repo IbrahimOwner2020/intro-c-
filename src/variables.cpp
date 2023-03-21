@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main()
@@ -7,7 +8,7 @@ int main()
     int A = 500;
 
     // print the value of a
-    cout << A;
+    cout << A << endl;
 
     // type of data variable
     // string, int, float, double, char
@@ -28,8 +29,15 @@ int main()
     double weight = 75.5;
     cout << weight << endl;
 
+    // double vs float
+    // They are both used to store floating point values, but with a slight difference in the range of digits they can store after the decimal point.
+    // The float data type can store 7 digits after the decimal point, while the double data type can store 15 digits after the decimal point.
+
     char initial = 'I';
     cout << initial << endl;
+
+    char grade = '&';
+    cout << grade << endl;
 
     // Print users name
     cout << "Enter your name: " << name << ". An I am " << age << " years old. I am " << height << " meters tall and I weigh " << weight << " kilograms. My initial is " << initial << "." << endl;
@@ -45,7 +53,14 @@ int main()
 
     // const variable
     const string names = "kidibra";
-    cout << names;
+    cout << names << endl;
+
+    // boolean variable
+    bool isMale = true;
+    cout << isMale << endl;
+
+    bool isFemale = false;
+    cout << isFemale;
 
     return 0;
 }
